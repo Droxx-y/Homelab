@@ -4,3 +4,4 @@
 # Ignore terraform files created by terraform init
 /terraform/.terraform
 /terraform/terraform.tfstate
+/terraform/.terraform.lock.hcl
