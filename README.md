@@ -1,3 +1,6 @@
+> [!NOTE]  
+> Still a work in progress!
+
 # Homelab
 Repository that holds all of my configration files for my homelab (Terraform, Ansible, Docker)
 
