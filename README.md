@@ -35,6 +35,6 @@ Once all the above steps are done, you can continue to the next step to start cr
 
 # Getting started
 
-1.) Run the deploy.sh script in the root of the project and wait for everything to be configured automatically (this will take approximately 10 minutes)
+1.) Run the `deploy.sh` script in the root of the project and wait for everything to be configured automatically (this will take approximately 10 minutes)
 
 Once everything has been configured, you will recieve a message at the bottom telling you the IP addresses of all the services that were deployed in Portainer (the IP-s can be later found in a text file called "services.txt" in the root of project also)
