@@ -1,0 +1,2 @@
+# Ignore terraform sensitive variable file
+/terraform/credentials.auto.tfvars
