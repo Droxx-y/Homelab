@@ -11,7 +11,19 @@ The main point of this project is to make the deployment automatic incase I ever
 
 *2.1) To create an API token go to your Proxmox server WebUI:
 
-Select your datacenter > Permissions > API Tokens > Add > add a new API token to a specific user (you can use root) > enter a name for a token ID (for example terraform) > deselect "Priviledge Separation" > Add > copy the "Secret" token (be aware - if you close the window without first copying, you need to do the same process again because you cant see the secret later on anymore)
+1. Select your datacenter
+
+2. Go to Permissions
+
+3. Select API Tokens > Add
+
+4. Add a new API token to a specific user (you can use root)
+
+5. Enter a name for a token ID (for example terraform) 
+
+6. Deselect "Priviledge Separation" > Add
+
+7. Copy the "Secret" token (be aware - if you close the window without first copying, you need to do the same process again because you cant see the secret later on anymore)
 
 3.) Go to the "terraform folder", remove "_example" from credentials.auto.tfvars > change the values inside the file (URL, ID, Secret)
 
