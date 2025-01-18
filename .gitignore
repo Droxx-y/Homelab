@@ -1,2 +1,6 @@
 # Ignore terraform sensitive variable file
 /terraform/credentials.auto.tfvars
+
+# Ignore terraform files created by terraform init
+/terraform/.terraform
+/terraform/terraform.tfstate
