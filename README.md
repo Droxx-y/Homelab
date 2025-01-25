@@ -10,7 +10,7 @@ The main point of this project is to make the deployment automatic incase I ever
 
 1.) Install [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installation-guide) and [Terraform](https://developer.hashicorp.com/terraform/install?product_intent=terraform#linux) on your system (if you are using a Windows machine consider using a Linux VM or WSL)
 
-2.) Create an API token in Proxmox (Terraform needs this to authenticate to your server)
+2.) [Create an API token in Proxmox](https://youtu.be/1AGvfKaGp3c) (Terraform needs this to authenticate to your server)
 
 *2.1) To create an API token go to your Proxmox server WebUI:
 
