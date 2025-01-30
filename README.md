@@ -6,6 +6,8 @@ Repository that holds all of my configration files for my homelab (Terraform, An
 
 The main point of this project is to make the deployment automatic incase I ever need to recover my homelab from scratch or want to deploy it on someone elses server
 
+The project might be useful to someone who also uses Proxmox as a hypervisor in their homelab and wants to deploy services with a "click of a button"
+
 # Prerequisites
 
 1.) Install [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installation-guide) and [Terraform](https://developer.hashicorp.com/terraform/install?product_intent=terraform#linux) on your system (if you are using a Windows machine consider using a Linux VM or WSL)
@@ -38,8 +40,18 @@ The main point of this project is to make the deployment automatic incase I ever
 
 Once all the above steps are done, you can continue to the next step to start creating your homelab
 
-# Getting started
+# Getting Started
 
 1.) Run the `deploy.sh` script in the root of the project and wait for everything to be configured automatically (this will take approximately 10 minutes)
 
 Once everything has been configured, you will recieve a message at the bottom telling you the IP addresses of all the services that were deployed in Portainer (the IP-s can be later found in a text file called "services.txt" in the root of local repository)
+
+# Getting Help
+
+If you need assistance with this project, you can reach out by opening an issue.
+
+# Maintainers & Contributors
+
+This project is actively maintained by me
+
+If you're interested in contributing, please check my [Contributing Guide](CONTRIBUTING.md) and submit a pull request.
